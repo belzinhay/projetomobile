@@ -1,0 +1,43 @@
+<ion-menu contentId="main-content">
+  <ion-header>
+    <ion-toolbar>
+      <ion-title>Minhas Receitas</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content class="ion-padding">
+    <ion-content class="ion-padding">
+      <ion-menu-toggle>
+        <ion-item routerLink="/livro">Livro</ion-item>
+      </ion-menu-toggle>
+    </ion-content>
+    
+  </ion-content>
+  
+</ion-menu>
+<div class="ion-page" id="main-content">
+  <ion-header>
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-menu-button></ion-menu-button>
+      </ion-buttons>
+      <ion-title>Menu</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  
+<ion-content>
+  <ion-img [src]="img"></ion-img>
+  <!-- 
+  <ion-card *ngFor="let comida of livro" color="warning" class="ion-text-center" (click)="actionFolha(comida)">
+    <ion-card-header>
+      <ion-card-title></ion-card-title>
+    </ion-card-header>
+    <ion-card-content>{{comida.livro}}</ion-card-content>
+  </ion-card>
+
+  <ion-fab horizontal="end" vertical="bottom">
+    <ion-fab-button (click)="mensagemAlert()" >
+      <ion-icon name="add-circle-outline"></ion-icon>
+    </ion-fab-button>
+  </ion-fab> -->
+</ion-content>
+</div>

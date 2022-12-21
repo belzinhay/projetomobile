@@ -1,0 +1,12 @@
+{
+  "receita": [
+    {
+      "id": 1,
+      "receita": "BROWNIE FAKE IMPROVISADO",
+      "ingrediente": "6 a 7 colheres (sopa) de chocolate em pó (50% cacau) 1 1/2 xícaras de açúcar 1 xícara de farinha de trigo 100g de manteiga derretida (aprox. 6 1/2 colheres de sopa) 2 ovos grandes",
+      "modo": "1- Adicionar os ingredientes secos 2- Adicionar a manteiga derretida e os ovos levemente batidos 3- Misturar até ficar homogênio (de preferência com fouet) 4- Despejar em forma untada (com manteiga e farinha) 5- Levar ao forno médio pré-aquecido por cerca de 30min. (fica de olho pra não passar do ponto!)",
+      "status": false,
+      "img": "https://m.media-amazon.com/images/I/716xNMKluXL.jpg"
+    }
+  ]
+}

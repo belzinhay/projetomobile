@@ -1,0 +1,32 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="dark" mode="ios">
+    <ion-buttons slot="start"><ion-back-button></ion-back-button></ion-buttons>
+    <ion-title color="secondary">Receitas</ion-title>
+  </ion-toolbar>
+  
+</ion-header>
+
+<ion-content mode="ios">
+
+
+
+  <form #form="ngForm" (ngSubmit)="editarReceita(form)">
+
+    <ion-item>
+      <ion-label>Receita:</ion-label>
+      <ion-input type="text" name="receita" [ngModel]="livro.receita"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Ingrediente:</ion-label>
+      <ion-input type="text" name="ingrediente" [ngModel]="livro.ingrediente"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Modo de Preparo:</ion-label>
+      <ion-input type="text" name="modo" [ngModel]="livro.modo"></ion-input>
+    </ion-item>
+    
+    <ion-button type="submit" color="sucess" expand="block">Atualizar</ion-button>
+  </form>
+</ion-content>
